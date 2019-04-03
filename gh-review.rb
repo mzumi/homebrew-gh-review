@@ -4,10 +4,10 @@
 class GhReview < Formula
   desc "A plugin for Bitbar to quickly show review requests on Github."
   homepage "https://github.com/mzumi/gh-review"
-  url "https://github.com/mzumi/gh-review/releases/download/v0.1.6/gh-review_darwin_amd64.zip"
-  sha256 "5d2f2b7af2f395fd146c02e0626b83f1de7a0cb9849e3f51c744cab035b38fa7"
+  url "https://github.com/mzumi/gh-review/releases/download/v0.1.8/gh-review_darwin_amd64.zip"
+  sha256 "fe1991a8625c7f49e954e2e8c2f6c22ad83437122490d02208f0e1109d02f62d"
 
-  version "0.1.6"
+  version "0.1.8"
 
   def install
     bin.install "gh-review"
